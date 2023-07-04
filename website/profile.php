@@ -28,7 +28,6 @@ if (!$_SESSION['user']) {
                     <img class="rounded-circle mt-5" width="150px" src="/assets/images/avatar-demo.png">
                     <span class="font-weight-bold"><?= $_SESSION['user']['name'] ?></span>
                     <span class="text-black-50"><?= $_SESSION['user']['email'] ?></span>
-                    <a href="data.php">Посмотреть историю изменений</a>
                     <span> </span>
                 </div>
             </div>
@@ -120,7 +119,7 @@ if (!$_SESSION['user']) {
                             </small>
                         </div>
                     </div>
-                    <div class="row     ">
+                    <div class="row mt-3">
                         <div class="container col-md-6">
                             <button class="btn btn-primary profile-button" type="submit">Save Profile</button>
                         </div>
